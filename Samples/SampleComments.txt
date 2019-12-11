@@ -1,0 +1,20 @@
+Sample
+
+Frodo Baggins
+Frodo has a lot of trouble with hand to hand combat, which is really a big part of the job. He often end[s] up with swords inside him when they shouldn't be, while he probably couldn't lift an axe if he tried. Tricky situations often get the better of him, so sending him out for scout work is a no-no. The sad truth is I wouldn't want him by my side in a battle.
+
+Meriadoc Brandybuck
+Merry has struggled a bit with hand to hand combat, which can sometimes get in the way of his survival. He could use a bit more training in sword handling, while he probably couldn't lift an axe if he tried. He [has] his wits about him most days, so he can be a good scout in an emergency. If the occasion calls for it, I can see myself fighting next to him in battle.
+
+Nazgûl #3
+Naz has shown great skill in hand to hand combat, which can be very helpful in the dangerous world find ourselves in. Their deadly sword skills are second to none, while their skill with an axe could improve through experience. Always alert, even when asleep, they['s] the perfect scout over any terrain. I'm positive they would absolutely slay in battle, and I always want them by my side.
+
+Arwen Undómiel
+Arwen has shown great skill in hand to hand combat, which can be very helpful in the dangerous world find ourselves in. Her deadly sword skills are second to none, while she probably couldn't lift an axe if she tried. Always alert, even when asleep, she['s] the perfect scout over any terrain. I'm positive she would absolutely slay in battle, and I always want her by my side.
+
+Gandalf the Grey
+Gandalf has struggled a bit with hand to hand combat, which can sometimes get in the way of their survival. They could use a bit more training in sword handling, while they probably couldn't lift an axe if they tried. Always alert, even when asleep, they['s] the perfect scout over any terrain. If the occasion calls for it, I can see myself fighting next to them in battle.
+
+Lady Galadriel
+Galadriel has shown great skill in hand to hand combat, which can be very helpful in the dangerous world find ourselves in. Her deadly sword skills are second to none, while her skill with an axe could improve through experience. She [has] her wits about her most days, so she can be a good scout in an emergency. If the occasion calls for it, I can see myself fighting next to her in battle.
+
