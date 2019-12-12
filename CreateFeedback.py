@@ -1,4 +1,5 @@
 import sys
+from GenderSwap import InsertGenderLanguage
 
 rubricData = []
 groupInputData = []
@@ -36,28 +37,8 @@ def BuildParagraph(individual):
     for i in range(0, len(rubricData)):
         # print(rubricData[i][int(individual[i+3])])
         paragraph += " " + rubricData[i][int(individual[i+3])]
-
-    if (individual[2] == "f"):
-        paragraph = paragraph.replace("[Pro]", "She")
-        paragraph = paragraph.replace("[pro]", "she")
-        paragraph = paragraph.replace("[Pos]", "Her")
-        paragraph = paragraph.replace("[pos]", "her")
-        paragraph = paragraph.replace("[obj]", "her")
-    elif (individual[2] == "m"):
-        paragraph = paragraph.replace("[Pro]", "He")
-        paragraph = paragraph.replace("[pro]", "he")
-        paragraph = paragraph.replace("[Pos]", "His")
-        paragraph = paragraph.replace("[pos]", "his")
-        paragraph = paragraph.replace("[obj]", "him")
-    elif (individual[2] == "t"):
-        paragraph = paragraph.replace("[Pro]", "They")
-        paragraph = paragraph.replace("[pro]", "they")
-        paragraph = paragraph.replace("[Pos]", "Their")
-        paragraph = paragraph.replace("[pos]", "their")
-        paragraph = paragraph.replace("[obj]", "them")
-    else:
-        paragraph = "OOPS."
-
+    
+    paragraph = InsertGenderLanguage(paragraph, individual[2])
     return paragraph
 
 
