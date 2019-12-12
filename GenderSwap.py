@@ -1,5 +1,8 @@
-# import sys
+import sys
 
+# def ShellRun():
+#     # TODO implement feature for running this script on already generated comments
+#     pass
 
 def InsertGenderLanguage(paragraph, gender):
 
@@ -41,3 +44,5 @@ def InsertGenderLanguage(paragraph, gender):
         paragraph = paragraph.replace("[\'s]", "[OOPS]")
 
     return paragraph
+
+# ShellRun()
