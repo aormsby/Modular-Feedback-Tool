@@ -16,15 +16,15 @@ def Run():
 def ReadFiles():
     """get rubric/group file data"""
 
-    # with open(sys.argv[1]) as rubric:
-    with open("Samples/SampleRubric.csv") as rubric:
+    with open(sys.argv[1]) as rubric:
+    # with open("Samples/SampleRubric.csv") as rubric:
         readin = rubric.readlines()
         global rubricData
         for line in readin:
             rubricData.append(line.strip("\n").split("|"))
 
-    # with open(sys.argv[2]) as groupList:
-    with open("Samples/SampleInput.csv") as groupList:
+    with open(sys.argv[2]) as groupList:
+    # with open("Samples/SampleInput.csv") as groupList:
         readin = groupList.readlines()
         global groupInputData
         for line in readin:
