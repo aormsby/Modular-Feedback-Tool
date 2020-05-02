@@ -1,7 +1,9 @@
 # Modular Feedback Tool
+
 This is a time-saving tool for generating _somewhat_ specialized feedback for large numbers of people. It's useful for things like student reports and staff assessment.
 
 ## How to Run
+
 You need **2 user-created files** before running this tool.
 
 1. A 'rubric' that contains your modular comment data **(.csv)**
@@ -9,11 +11,12 @@ You need **2 user-created files** before running this tool.
 
 After you set these up, you can run the program in your command terminal like so:
 
-`python CreateFeedback.py [rubric_file].csv [input_file].csv `
+`python CreateFeedback.py [rubric_file].csv [input_file].csv`
 
 A **.txt** file will be generated with title taken from your input data file and placed in the script folder. It will contain all of your output text comments.
 
 ### Rubric file
+
 In our case, the rubric is the table of qualities you are assessing in an individual. You can add as many qualities as you'd like, and you should include multiple levels for each quality to provide different levels of feedback. The rubric should be saved as a **.csv file** with **pipe separators** as in the sample below.
 
 [Sample Rubric](Samples/SampleRubric.csv)
@@ -30,9 +33,11 @@ In our case, the rubric is the table of qualities you are assessing in an indivi
 The key here is to write out your quality text following a sort of comment template. All of your generated comments will follow that template from the beginning to the end of your rubric. The trickiest part is to make your comment pieces connect to each other grammatically, and in some cases it won't be possible. While the goal is to provide as much modularity in comment generation as needed, there will often be grammar issues that need to be tweaked after generation using your rubric. Language is pretty messy. :wink:
 
 ### Gender Replacement
+
 In your rubric, you can (and really should) include placeholder codes for gender pronouns, possessives, and object pronouns. You will note a person's gender in the Input Data file, and the tool will automatically replace these codes with the correct words.
 
 Supported Genders
+
 - m - Male
 - f - Female
 - t - They/m
@@ -49,6 +54,7 @@ Some basic verb replacements are also supported.
 - `ha[s]` -> 'has' for m/f, 'have' for t
 
 ### Input Data file
+
 Your input data file is where you set up the details for actual comment generation. It's a list of names, gender, and the level of feedback you wish to give for each section of the comments rubric you created. It's a **.csv file** with **comma separators** as in the sample below.
 
 The first line gets set as the name of your output file. -> `[first_line]Comments.txt`. In each successive line, the Full Name, Name, and Gender data are required. After those, the number of qualities you add should be based on your rubric. My sample rubric has 5 qualities, so I added data for 5 qualities into each line.
@@ -68,24 +74,28 @@ The first line gets set as the name of your output file. -> `[first_line]Comment
 
 For each quality, you will write the level of feedback with a number. In my sample, I have 3 levels for each quality. Therefore, I can type 1, 2, or 3 in my input data. The tool will read which level to use in the rubric and output the corresponding comment piece.
 
-You can have as many qualities and levels as you'd like, but remember that the number of assessed quailities provided in the input data file must match the number in the rubric or it will not work.
+You can have as many qualities and levels as you'd like, but remember that the number of assessed qualities provided in the input data file must match the number in the rubric or it will not work.
 
 ### Sample Output
 
-Using the two sample files from above, here is the ouptut after running the script. -> [Sample Output](Samples/SampleComments.txt)
+Using the two sample files from above, here is the output after running the script. -> [Sample Output](Samples/SampleComments.txt)
 
 ## Goal: Quantity Over Quality
+
 While the level of quality in your generated reports is based directly on your rubric, there is a limit to how personalized these comments will really be. For that reason, I recommend using this tool only when a lot of reports are needed on a tight deadline.
 
 ### Good Use Case
+
 You're a teacher, and you need to write 300+ student reports in 1 week. There's no way to fully personalize all of your comments, so you can use this tool to help generate comments for the majority who don't need much feedback. Then you can use the remaining time to focus on writing more in-depth feedback for the students who need it.
 
 ### Bad Use Case
+
 You're a manager with about 30 people on your team, and you need to write a quarterly report on their workplace/career development. You could use this tool to help, but many of your comments may appear quite similar due to rubric limitations. Since you don't have too many employees needing and there's more time, it would be much better to write all of these comments to give them a more personal touch.
 
 In the end, it's up to you to judge what's best for your situation. Just remember this tool is built more for quantity over quality. :smile:
 
 ## Current Features
+
 - Automatically replaces gender through text placeholders
 - Generates comments based on user-created rubric
 - Asks for overwrite if output file already exists
@@ -94,14 +104,14 @@ In the end, it's up to you to judge what's best for your situation. Just remembe
 ## Future Improvements
 
 ### Needs
+
 - Improved formatting of output file
-    - e.g. can be made ready for quick copy paste into spreadsheets, perhaps can format for multiple use cases
+  - e.g. can be made ready for quick copy-paste into spreadsheets, perhaps can format for multiple use cases
 - Visual UI **(important)**
-    - to remove need for command line knowledge as target users are teachers and managers
-    - acts as an accessible interface that can be built on as features are improved/added, grants more user control/confidence
+  - to remove need for command-line knowledge as target users are teachers and managers
+  - acts as an accessible interface that can be built on as features are improved/added, grants more user control/confidence
 
 ### Nice to have
-- Ability to run gender replacement script on its own
-    - function already separate, unsure of best implementation as of this writing
-- Automatically mark mixed-level comments for language review
-    - to fix grammar issues
+
+- Ability to run gender replacement script on its own -- This function is already separate, but I'm unsure of how to best implement it as a standalone option.
+- Automatically mark mixed-level comments for language review to check for any grammar matching issues

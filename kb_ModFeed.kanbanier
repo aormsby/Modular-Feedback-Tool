@@ -1,61 +1,60 @@
 <?xml version="1.0"?>
-<b v="1" n="Gaj9RVP9SCyAdMefQqBecw">
+<b n="Gaj9RVP9SCyAdMefQqBecw" v="1">
 	<r>
-		<f d1="0.0" d0="0.0" id="+8Omme9hQY2kmHb206di8w" d2="0.0" i="0.0" d="597806741146.0" t="All">
+		<f d0="0.0" id="+8Omme9hQY2kmHb206di8w" d="597806741146.0" d1="0.0" i="0.0" t="All" d2="0.0">
 			<t>All</t>
 		</f>
 	</r>
 	<c>
-		<f d1="0.0" d0="597809818613.0" id="azCXbQ44QzCSjouqaM/xzQ" d2="0.0" i="597807138273.0" d="597807138273.0" t="Requests">
+		<f d0="597809818613.0" id="azCXbQ44QzCSjouqaM/xzQ" d="597807138273.0" d1="0.0" i="597807138273.0" t="Requests" d2="0.0">
 			<t>Requests</t>
 		</f>
-		<f d1="0.0" d0="0.0" id="Gf+DGPanS/eOikvOglNNcw" d2="0.0" i="0.0" d="597806741146.0" t="To do">
+		<f d0="0.0" id="Gf+DGPanS/eOikvOglNNcw" d="597806741146.0" d1="0.0" i="0.0" t="To do" d2="0.0">
 			<t>To do</t>
 		</f>
-		<f d1="0.0" d0="0.0" id="BuIZagY3RLGv+1J6ceK98g" d2="0.0" i="0.0" d="597806741146.0" t="Doing">
+		<f d0="0.0" id="BuIZagY3RLGv+1J6ceK98g" d="597806741146.0" d1="0.0" i="0.0" t="Doing" d2="0.0">
 			<t>Doing</t>
 		</f>
-		<f d1="0.0" d0="0.0" id="snsxsQUfQy+xyQ1334eZhQ" d2="0.0" i="0.0" d="597806741146.0" t="Done">
+		<f d0="0.0" id="snsxsQUfQy+xyQ1334eZhQ" d="597806741146.0" d1="0.0" i="0.0" t="Done" d2="0.0">
 			<t>Done</t>
 		</f>
 	</c>
-	<i c="Gf+DGPanS/eOikvOglNNcw" r="+8Omme9hQY2kmHb206di8w">
-		<c d1="597808351640.0" d5="0.0" d0="597808351640.0" id="FoPf2x5FQhSAFvpA+1W5OA" d2="0.0" i="597807840942.0" d="597807840942.0" d4="0.0" t="Decide on pipe use" d3="0.0">
+	<i r="+8Omme9hQY2kmHb206di8w" c="Gf+DGPanS/eOikvOglNNcw">
+		<c id="FoPf2x5FQhSAFvpA+1W5OA" d0="597808351640.0" d="597807840942.0" d1="597808351640.0" d4="0.0" d5="0.0" i="597807840942.0" t="Decide on pipe use" d2="0.0" d3="0.0">
 			<s>Decide on pipe use</s>
 			<c>Rubric files are currently csv-pipe files in order to support comma use in comments, but pipe separation is generally not the default separator for csv exports from commonly used apps. (It may not even be an option.) I need to determine if there is a way to support comma use and comma separation or if pipes can be used with some tweaks.</c>
 		</c>
 	</i>
-	<i c="BuIZagY3RLGv+1J6ceK98g" r="+8Omme9hQY2kmHb206di8w">
-		<c d1="0.0" d5="0.0" d0="597809886893.0" id="9BEnd6wbSw2YSArMRBxGlQ" d2="0.0" i="597809883994.0" d="597809883994.0" d4="0.0" t="Update README" d3="0.0">
+	<i r="+8Omme9hQY2kmHb206di8w" c="snsxsQUfQy+xyQ1334eZhQ">
+		<c id="9BEnd6wbSw2YSArMRBxGlQ" d0="597809886893.0" d="597809883994.0" d1="0.0" d4="0.0" d5="0.0" i="597809883994.0" t="Update README" d2="0.0" d3="0.0">
 			<s>Update README</s>
 		</c>
-	</i>
-	<i c="snsxsQUfQy+xyQ1334eZhQ" r="+8Omme9hQY2kmHb206di8w">
-		<c d1="0.0" d5="0.0" d0="597809828487.0" id="W6kVap9kQX+H5MyiHTcozw" d2="0.0" i="597809240623.0" d="597809240622.0" d4="0.0" t="Ask for output file overwrite" d3="0.0">
+		<c id="W6kVap9kQX+H5MyiHTcozw" d0="597809828487.0" d="597809240622.0" d1="0.0" d4="0.0" d5="0.0" i="597809240623.0" t="Ask for output file overwrite" d2="0.0" d3="0.0">
 			<s>Ask for output file overwrite</s>
 		</c>
-		<c d1="597806843767.0" d5="0.0" d0="597806853019.0" id="9aEjBRMWQLCH+Lu5Vc9xGQ" d2="0.0" i="0.0" d="597806741146.0" d4="0.0" t="Give vars more generic names" d3="0.0">
+		<c id="9aEjBRMWQLCH+Lu5Vc9xGQ" d0="597806853019.0" d="597806741146.0" d1="597806843767.0" d4="0.0" d5="0.0" i="0.0" t="Give vars more generic names" d2="0.0" d3="0.0">
 			<s>Give vars more generic names</s>
 		</c>
-		<c d1="597809843451.0" d5="0.0" d0="597809843451.0" id="BQqkAX3iROmF0NAoFab4eQ" d2="0.0" i="597806856117.0" d="597806856115.0" d4="0.0" t="Split gender replace into own script" d3="0.0">
+		<c id="BQqkAX3iROmF0NAoFab4eQ" d0="597809843451.0" d="597806856115.0" d1="597809843451.0" d4="0.0" d5="0.0" i="597806856117.0" t="Split gender replace into own script" d2="0.0" d3="0.0">
 			<s>Split gender replace into own script</s>
 			<c>Separate the functionality in order to run gender word replacement separately as needed</c>
 		</c>
 	</i>
-	<h c="Gf+DGPanS/eOikvOglNNcw" d="9aEjBRMWQLCH+Lu5Vc9xGQ" r="+8Omme9hQY2kmHb206di8w" t="597806741175.0"/>
-	<h c="Gf+DGPanS/eOikvOglNNcw" d="BQqkAX3iROmF0NAoFab4eQ" r="+8Omme9hQY2kmHb206di8w" t="597806856117.0"/>
-	<h c="BuIZagY3RLGv+1J6ceK98g" d="9aEjBRMWQLCH+Lu5Vc9xGQ" r="+8Omme9hQY2kmHb206di8w" t="597807123542.0"/>
-	<h c="azCXbQ44QzCSjouqaM/xzQ" d="FoPf2x5FQhSAFvpA+1W5OA" r="+8Omme9hQY2kmHb206di8w" t="597807840943.0"/>
-	<h c="Gf+DGPanS/eOikvOglNNcw" d="FoPf2x5FQhSAFvpA+1W5OA" r="+8Omme9hQY2kmHb206di8w" t="597807845704.0"/>
-	<h c="azCXbQ44QzCSjouqaM/xzQ" d="W6kVap9kQX+H5MyiHTcozw" r="+8Omme9hQY2kmHb206di8w" t="597809240623.0"/>
-	<h c="Gf+DGPanS/eOikvOglNNcw" d="W6kVap9kQX+H5MyiHTcozw" r="+8Omme9hQY2kmHb206di8w" t="597809257245.0"/>
-	<h c="snsxsQUfQy+xyQ1334eZhQ" d="9aEjBRMWQLCH+Lu5Vc9xGQ" r="+8Omme9hQY2kmHb206di8w" t="597809814672.0"/>
-	<h c="BuIZagY3RLGv+1J6ceK98g" d="BQqkAX3iROmF0NAoFab4eQ" r="+8Omme9hQY2kmHb206di8w" t="597809821805.0"/>
-	<h c="azCXbQ44QzCSjouqaM/xzQ" d="9BEnd6wbSw2YSArMRBxGlQ" r="+8Omme9hQY2kmHb206di8w" t="597809883994.0"/>
-	<h c="Gf+DGPanS/eOikvOglNNcw" d="9BEnd6wbSw2YSArMRBxGlQ" r="+8Omme9hQY2kmHb206di8w" t="597809893920.0"/>
-	<h c="snsxsQUfQy+xyQ1334eZhQ" d="BQqkAX3iROmF0NAoFab4eQ" r="+8Omme9hQY2kmHb206di8w" t="597834285075.0"/>
-	<h c="BuIZagY3RLGv+1J6ceK98g" d="9BEnd6wbSw2YSArMRBxGlQ" r="+8Omme9hQY2kmHb206di8w" t="597834290898.0"/>
-	<h c="BuIZagY3RLGv+1J6ceK98g" d="W6kVap9kQX+H5MyiHTcozw" r="+8Omme9hQY2kmHb206di8w" t="597834295779.0"/>
-	<h c="snsxsQUfQy+xyQ1334eZhQ" d="W6kVap9kQX+H5MyiHTcozw" r="+8Omme9hQY2kmHb206di8w" t="598326915094.0"/>
-	<t d="0.0" sct="true" slt="true"/>
+	<h d="9aEjBRMWQLCH+Lu5Vc9xGQ" t="597806741175.0" c="Gf+DGPanS/eOikvOglNNcw" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="BQqkAX3iROmF0NAoFab4eQ" t="597806856117.0" c="Gf+DGPanS/eOikvOglNNcw" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="9aEjBRMWQLCH+Lu5Vc9xGQ" t="597807123542.0" c="BuIZagY3RLGv+1J6ceK98g" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="FoPf2x5FQhSAFvpA+1W5OA" t="597807840943.0" c="azCXbQ44QzCSjouqaM/xzQ" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="FoPf2x5FQhSAFvpA+1W5OA" t="597807845704.0" c="Gf+DGPanS/eOikvOglNNcw" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="W6kVap9kQX+H5MyiHTcozw" t="597809240623.0" c="azCXbQ44QzCSjouqaM/xzQ" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="W6kVap9kQX+H5MyiHTcozw" t="597809257245.0" c="Gf+DGPanS/eOikvOglNNcw" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="9aEjBRMWQLCH+Lu5Vc9xGQ" t="597809814672.0" c="snsxsQUfQy+xyQ1334eZhQ" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="BQqkAX3iROmF0NAoFab4eQ" t="597809821805.0" c="BuIZagY3RLGv+1J6ceK98g" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="9BEnd6wbSw2YSArMRBxGlQ" t="597809883994.0" c="azCXbQ44QzCSjouqaM/xzQ" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="9BEnd6wbSw2YSArMRBxGlQ" t="597809893920.0" c="Gf+DGPanS/eOikvOglNNcw" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="BQqkAX3iROmF0NAoFab4eQ" t="597834285075.0" c="snsxsQUfQy+xyQ1334eZhQ" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="9BEnd6wbSw2YSArMRBxGlQ" t="597834290898.0" c="BuIZagY3RLGv+1J6ceK98g" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="W6kVap9kQX+H5MyiHTcozw" t="597834295779.0" c="BuIZagY3RLGv+1J6ceK98g" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="W6kVap9kQX+H5MyiHTcozw" t="598326915094.0" c="snsxsQUfQy+xyQ1334eZhQ" r="+8Omme9hQY2kmHb206di8w"/>
+	<h d="9BEnd6wbSw2YSArMRBxGlQ" t="598349266500.0" c="snsxsQUfQy+xyQ1334eZhQ" r="+8Omme9hQY2kmHb206di8w"/>
+	<t slt="true" sct="true" d="0.0"/>
 </b>
