@@ -1,5 +1,23 @@
 # Modular Feedback Tool
 
+- [Modular Feedback Tool](#modular-feedback-tool)
+  - [Overview](#overview)
+  - [How to Run](#how-to-run)
+    - [Rubric file](#rubric-file)
+    - [Gender Replacement](#gender-replacement)
+    - [Input Data file](#input-data-file)
+    - [Sample Output](#sample-output)
+  - [Goal: Quantity Over Quality](#goal-quantity-over-quality)
+    - [Good Use Case](#good-use-case)
+    - [Bad Use Case](#bad-use-case)
+  - [Current Features](#current-features)
+  - [Limitations](#limitations)
+  - [Future Improvements](#future-improvements)
+    - [Needs](#needs)
+    - [Nice to have](#nice-to-have)
+
+## Overview
+
 This is a time-saving tool for generating _somewhat_ specialized feedback for large numbers of people. It's useful for things like student reports and staff assessment.
 
 ## How to Run
@@ -101,10 +119,16 @@ In the end, it's up to you to judge what's best for your situation. Just remembe
 - Asks for overwrite if output file already exists
 - Runs in command terminal (not ideal for target user)
 
+## Limitations
+
+- Language --> This tool is currently **English-specific**, and it's highly doubtful that gender-based pronoun swapping would work in properly other languages. Moreso, there is a heavy reliance on concatenation in places where it is unhelpful to localization.
+- Reliance on CLI --> My intention is to build a simple GUI to support the application for more non-technical users.
+
 ## Future Improvements
 
 ### Needs
 
+- **Internationalization** updates to support other language needs --> I'm very keen to work on this. :slightly_smiling_face:
 - Improved formatting of output file
   - e.g. can be made ready for quick copy-paste into spreadsheets, perhaps can format for multiple use cases
 - Visual UI **(important)**
